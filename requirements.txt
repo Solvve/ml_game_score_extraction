@@ -1,0 +1,10 @@
+tensorflow == 1.15
+segmentation_models >= 1.*
+keras-applications >= 1.0.7, <=1.0.8
+image-classifiers == 1.0.*
+efficientnet == 1.0.*
+keras-radam
+opencv-python
+albumentations
+pytesseract
+flask

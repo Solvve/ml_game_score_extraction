@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block title %}
+    FIFA score extraction
+{% endblock %}
+
+{% block content_title %}
+    Extract score information from game screen
+{% endblock %}
+
+{% block content %}
+<p> Upload image </p>
+
+
+<form action="{{ url_for('get_score') }}" method="post" enctype="multipart/form-data">
+  <div class="form-group">
+    <label for="exampleInputText1">Select file</label>
+    <input type="file" class="form-control-file" id="image" aria-describedby="textHelp" placeholder="Calls history" name="image">
+    <small id="textHelp" class="form-text text-muted">FIFA screen image</small>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+{% if data %}
+<div class="row">
+  <div class="m-5 col-sm-6">
+     <img src="static/upload/{{file_name}}" class="img-fluid" alt="image">
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-12">
+    <h3> Extracted data </h3>
+    <pre> {{data}} </pre>
+  </div>
+</div>
+
+{% endif %}
+
+        
+{% if msg %}
+    <h2> Error message </h2>
+    <p> {{msg}} </p>
+{% endif %}
+
+{% endblock %}
