@@ -1,6 +1,6 @@
 # Game score extraction
 
-[![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/Solvve/ml_game_score_extraction/blob/master/LICENSE)
+[![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/Solvve/ml_game_score_extraction/blob/master/LICENSE.txt)
 [![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-378/)
 [![Tensorflow 1.15](https://img.shields.io/badge/tensorflow-1.15-yellow)](https://www.tensorflow.org/versions/r1.15/api_docs/python/tf)
 [![Solvve](https://img.shields.io/badge/made%20in-solvve-blue)](https://solvve.com/)
