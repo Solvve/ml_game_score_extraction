@@ -32,7 +32,7 @@ To use the application you need pretrained weights and language data for Tessera
 
  - Clone the repository:
  ```
- git clone https://github.com/Solvve/score_extractor_app.git
+ git clone https://github.com/Solvve/ml_game_score_extraction.git
  ```
  - Install [Tesseract-OCR](https://github.com/tesseract-ocr/tesseract/wiki) >= 4.1.
  - Put **fifa_score.traineddata** file to %TESSDATA_PREFIX%.
